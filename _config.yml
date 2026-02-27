@@ -22,7 +22,7 @@ repository               : "Adam-THU/Adam-THU.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "images/selfie.jpg"
+  avatar           : "selfie.jpg"
   name             : "Dong Zhe (董哲)"
   pronouns         : # example: "she/her"  
   bio              : "Incoming Ph.D. Student at Tsinghua University"
