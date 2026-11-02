@@ -2,16 +2,19 @@
   "use strict";
 
   const storageKey = "zhe-dong-color-theme";
-  const colors = { soft: "#f1f0e9", light: "#ffffff", dark: "#202728" };
+  const colors = { light: "#f1f0e9", dark: "#202728" };
   const isTheme = value => Object.prototype.hasOwnProperty.call(colors, value);
 
   function applyTheme(value) {
-    const theme = isTheme(value) ? value : "soft";
+    const theme = isTheme(value) ? value : "light";
     document.documentElement.dataset.theme = theme;
     const meta = document.querySelector('meta[name="theme-color"]');
     if (meta) meta.content = colors[theme];
-    const picker = document.getElementById("color-theme");
-    if (picker) picker.value = theme;
+    const toggle = document.getElementById("color-theme-toggle");
+    if (toggle) {
+      toggle.setAttribute("aria-pressed", String(theme === "dark"));
+      toggle.title = theme === "dark" ? "Switch to light mode" : "Switch to dark mode";
+    }
   }
 
   let savedTheme;
@@ -23,14 +26,15 @@
   applyTheme(savedTheme);
 
   document.addEventListener("DOMContentLoaded", () => {
-    const picker = document.getElementById("color-theme");
-    if (!picker) return;
-    picker.value = document.documentElement.dataset.theme;
-    picker.closest(".theme-control").hidden = false;
-    picker.addEventListener("change", () => {
-      applyTheme(picker.value);
+    const toggle = document.getElementById("color-theme-toggle");
+    if (!toggle) return;
+    applyTheme(document.documentElement.dataset.theme);
+    toggle.hidden = false;
+    toggle.addEventListener("click", () => {
+      const theme = document.documentElement.dataset.theme === "dark" ? "light" : "dark";
+      applyTheme(theme);
       try {
-        localStorage.setItem(storageKey, picker.value);
+        localStorage.setItem(storageKey, theme);
       } catch (_) {
         // Choosing a theme does not depend on being able to save it.
       }
