@@ -1,31 +1,62 @@
 ---
+layout: default
 permalink: /
-title: "About Me"
-author_profile: true
-redirect_from: 
+title: "About"
+description: "Zhe Dong (董哲), first-year Ph.D. student at Tsinghua University. Research in on-device intelligence and SLM for agentic systems."
+redirect_from:
   - /about/
   - /about.html
 ---
 
-Hi! I am **Dong Zhe (董哲)**, an incoming Ph.D. student in the [School of Software](https://www.thss.tsinghua.edu.cn/) at [Tsinghua University](https://www.tsinghua.edu.cn/). I received my B.S. degree (dual degree in Mathematics & Physics and Software Engineering) from Tsinghua University in 2026.
+<section class="intro" aria-labelledby="intro-title">
+  <div class="intro-copy">
+    <h1 id="intro-title">Zhe Dong <span lang="zh-Hans">董哲</span></h1>
+    <p class="intro-role">First-year Ph.D. student</p>
+    <p class="intro-affiliation"><a href="https://www.thss.tsinghua.edu.cn/">School of Software</a>, <a href="https://www.tsinghua.edu.cn/">Tsinghua University</a></p>
+    <div class="intro-bio">
+      <p>I'm interested in making intelligent systems work on everyday devices. My research focuses on <strong>on-device intelligence</strong> and <strong>SLM for agentic systems</strong>.</p>
+      <p>I received my B.S. dual degree in Mathematics &amp; Physics and Software Engineering from Tsinghua University in 2026.</p>
+    </div>
+    <div class="contact-links" aria-label="Contact and profile links">
+      <a href="mailto:{{ site.author.email }}">Email</a>
+      <a href="https://github.com/{{ site.author.github }}">GitHub</a>
+      <a href="{{ '/cv/' | relative_url }}">Curriculum vitae</a>
+    </div>
+  </div>
+  <img class="intro-portrait" src="{{ '/images/selfie.jpg' | relative_url }}" alt="Zhe Dong's illustrated profile picture" width="192" height="192" fetchpriority="high">
+</section>
 
-My research interests center on **on-device AI agents** — designing autonomous, intelligent systems capable of operating efficiently and reliably on resource-constrained edge devices. I am broadly interested in the intersection of efficient AI, system-level optimization, and agent-based reasoning, with the goal of bringing advanced AI capabilities to real-world, on-device environments.
+<section class="home-section research-section" aria-labelledby="research-title">
+  <div class="section-heading">
+    <h2 id="research-title">Research interests</h2>
+    <p>Efficient intelligence, from models to systems.</p>
+  </div>
+  <div class="research-grid">
+    {% for interest in site.data.profile.research %}
+    <div class="research-area">
+      <span class="research-symbol" aria-hidden="true">{% if forloop.first %}{% include research-device.svg %}{% else %}{% include research-agent.svg %}{% endif %}</span>
+      <h3>{{ interest.title }}</h3>
+      <p>{{ interest.description }}</p>
+      <p class="research-topics">{{ interest.topics | join: ' / ' }}</p>
+    </div>
+    {% endfor %}
+  </div>
+</section>
 
-I am always open to academic discussions and collaborations. Feel free to reach out via email!
+<section class="home-section" aria-labelledby="news-title">
+  <h2 id="news-title">News</h2>
+  <ul class="dated-list news-list">
+    <li><time datetime="2026-09">Sep 2026</time><p>Started my Ph.D. at the School of Software, Tsinghua University.</p></li>
+    <li><time datetime="2026-06">Jun 2026</time><p>Graduated from Tsinghua University with a dual degree in Mathematics &amp; Physics and Software Engineering.</p></li>
+  </ul>
+</section>
 
-## News
+<section class="home-section" aria-labelledby="education-title">
+  <div class="section-heading"><h2 id="education-title">Education</h2><a href="{{ '/cv/' | relative_url }}">Full CV</a></div>
+  {% include education.html %}
+</section>
 
-- **[2026.09]** Starting my Ph.D. journey at the School of Software, Tsinghua University.
-- **[2026.06]** Graduated from Tsinghua University with a B.S. in Mathematics & Physics and Software Engineering.
-
-## Education
-
-- **Ph.D. in Software Engineering** — School of Software, Tsinghua University *(2026 – present)*
-- **B.S. in Mathematics & Physics + Software Engineering** (Dual Degree) — Tsinghua University *(2022 – 2026)*
-
-## Research Interests
-
-- On-device AI Agents
-- Edge Intelligence & Efficient Inference
-- Autonomous Agent Systems
-- Large Language Model Deployment
+<aside class="contact-note">
+  <p>I'm always happy to talk about research and new ideas.</p>
+  <a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a>
+</aside>

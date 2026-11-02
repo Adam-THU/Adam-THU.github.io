@@ -9,10 +9,10 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
-title                    : "Dong Zhe | 董哲"
+title                    : "Zhe Dong | 董哲"
 title_separator          : "-"
-name                     : &name "Dong Zhe"
-description              : &description "Dong Zhe's academic homepage"
+name                     : &name "Zhe Dong"
+description              : &description "Zhe Dong (董哲), first-year Ph.D. student at Tsinghua University. On-device intelligence & SLM for agentic systems."
 url                      : https://Adam-THU.github.io
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "Adam-THU/Adam-THU.github.io"
@@ -23,9 +23,9 @@ repository               : "Adam-THU/Adam-THU.github.io"
 author:
   # Biographic information
   avatar           : "selfie.jpg"
-  name             : "Dong Zhe (董哲)"
+  name             : "Zhe Dong (董哲)"
   pronouns         : # example: "she/her"  
-  bio              : "Incoming Ph.D. Student at Tsinghua University"
+  bio              : "First-year Ph.D. student at Tsinghua University"
   location         : "Beijing, China"
   employer         : "Tsinghua University"
   uri              : # URL

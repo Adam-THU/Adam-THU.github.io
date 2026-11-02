@@ -1,32 +1,34 @@
 ---
-layout: archive
-title: "CV"
+layout: single
+title: "Curriculum vitae"
+description: "First-year Ph.D. student at Tsinghua University."
 permalink: /cv/
-author_profile: true
 redirect_from:
   - /resume
+  - /resume/
+  - /cv-json/
+  - /resume-json
 ---
 
-{% include base_path %}
+<div class="cv-contact"><a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a><a href="https://github.com/{{ site.author.github }}">GitHub</a></div>
 
-Education
-======
-* **Ph.D. in Software Engineering**, School of Software, Tsinghua University, 2026 – present
-* **B.S. in Mathematics & Physics + Software Engineering** (Dual Degree), Tsinghua University, 2022 – 2026
+## Education
 
-Research Interests
-======
-* On-device AI Agents
-* Edge Intelligence & Efficient Inference
-* Autonomous Agent Systems
-* Large Language Model Deployment
+{% include education.html %}
 
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+## Research interests
 
-Service
-======
-* Reviewer / Sub-reviewer: *(to be updated)*
+{% for interest in site.data.profile.research %}
+### {{ interest.title }}
+
+{{ interest.description }}
+
+{% endfor %}
+
+{% if site.publications.size > 0 %}
+## Publications
+
+{% for post in site.publications reversed %}
+{% include archive-single-cv.html %}
+{% endfor %}
+{% endif %}
