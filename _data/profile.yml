@@ -1,9 +1,9 @@
 # Shared by the homepage and CV so research descriptions stay consistent.
 research:
   - title: "on-device AI"
-    description: "AI infrastructure for resource-constrained devices: efficient inference, hardware-aware acceleration, and practical on-device deployment."
+    description: "AI infra for resource-constrained devices: efficient inference, hardware-aware acceleration, and practical on-device deployment."
     topics:
-      - "On-device AI infrastructure"
+      - "On-device AI infra"
       - "Inference acceleration"
   - title: "SLM for agentic systems"
     description: "Small language models that can reason and act in interactive environments, with a focus on mobile agents and efficient agentic systems."
@@ -32,18 +32,17 @@ experience:
     highlights:
       - "Researched and developed multi-turn dialogue understanding and query rewriting models for short-video search."
       - "Designed a dialogue-history augmentation module to improve context and user-intent understanding, and explored preference alignment using users' viewing behavior."
-      - "Gained practical experience deploying and fine-tuning large language models for real-world applications."
 
 scholarships:
   - name: "Ningbo Future Star Scholarship"
-    original_name: "宁波未来之星奖学金"
+    thanks: "With thanks to the Ningbo Municipal Government for its support."
     date: "2026-11"
     period: "Nov 2026"
   - name: "Toyota Scholarship"
-    original_name: "丰田奖学金"
+    thanks: "With thanks to Toyota for its support."
     date: "2025-11"
     period: "Nov 2025"
   - name: "Weng Xiaoqi Scholarship"
-    original_name: "翁晓奇奖学金"
+    thanks: "With thanks to Xiaoqi Weng for supporting my studies."
     date: "2025-11"
     period: "Nov 2025"

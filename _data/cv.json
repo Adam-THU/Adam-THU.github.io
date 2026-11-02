@@ -38,7 +38,7 @@
     {
       "name": "on-device AI",
       "keywords": [
-        "On-device AI infrastructure",
+        "On-device AI infra",
         "Inference acceleration",
         "Hardware-aware optimization"
       ]
@@ -62,8 +62,7 @@
       "summary": "Overseas Recommendation Department · AI Innovation Algorithms Group",
       "highlights": [
         "Researched and developed multi-turn dialogue understanding and query rewriting models for short-video search.",
-        "Designed a dialogue-history augmentation module to improve context and user-intent understanding, and explored preference alignment using users' viewing behavior.",
-        "Gained practical experience deploying and fine-tuning large language models for real-world applications."
+        "Designed a dialogue-history augmentation module to improve context and user-intent understanding, and explored preference alignment using users' viewing behavior."
       ]
     }
   ],
@@ -76,16 +75,19 @@
   "portfolio": [],
   "awards": [
     {
-      "title": "Ningbo Future Star Scholarship (宁波未来之星奖学金)",
-      "date": "2026-11"
+      "title": "Ningbo Future Star Scholarship",
+      "date": "2026-11",
+      "summary": "With thanks to the Ningbo Municipal Government for its support."
     },
     {
-      "title": "Toyota Scholarship (丰田奖学金)",
-      "date": "2025-11"
+      "title": "Toyota Scholarship",
+      "date": "2025-11",
+      "summary": "With thanks to Toyota for its support."
     },
     {
-      "title": "Weng Xiaoqi Scholarship (翁晓奇奖学金)",
-      "date": "2025-11"
+      "title": "Weng Xiaoqi Scholarship",
+      "date": "2025-11",
+      "summary": "With thanks to Xiaoqi Weng for supporting my studies."
     }
   ]
 }
