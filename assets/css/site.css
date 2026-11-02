@@ -79,7 +79,8 @@ h3 { font-size: 16px; letter-spacing: -.3px; }
 .experience-highlights { padding-left: 18px; margin: 12px 0 0; font-size: 13px; color: var(--muted); line-height: 1.85; }
 .experience-highlights li { margin: 0 0 7px; }
 .scholarship-list { font-size: 14px; }
-.scholarship-list .award-thanks { color: var(--muted); font-size: 12px; margin-top: 4px; }
+.scholarship-list > li > div > p:first-child { color: var(--ink); font-weight: 650; }
+.scholarship-list .award-thanks { color: #6b7280; font-size: 12px; font-weight: 400; margin-top: 5px; line-height: 1.75; }
 .contact-note { margin-top: 24px; padding: 24px 28px; background: var(--wash); border-radius: 8px; font-size: 13px; }
 .contact-note p { margin: 0 0 3px; color: var(--muted); }
 .contact-note a { font-weight: 600; text-decoration: none; overflow-wrap: anywhere; }
