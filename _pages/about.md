@@ -13,7 +13,7 @@ redirect_from:
   <img class="intro-portrait" src="{{ '/images/portrait.webp' | relative_url }}" alt="Zhe Dong in graduation attire at Tsinghua University" width="192" height="192" fetchpriority="high">
   <div class="intro-copy">
     <div class="intro-bio">
-      <p>I'm <strong>Zhe Dong (<span lang="zh-Hans">董哲</span>)</strong>, a first-year Ph.D. student in the <a href="https://www.thss.tsinghua.edu.cn/">School of Software</a> at <a href="https://www.tsinghua.edu.cn/">Tsinghua University</a>.</p>
+      <p>I'm <strong>Zhe Dong (<span lang="zh-Hans">董哲</span>)</strong>, a first-year Ph.D. student in the <a href="https://www.thss.tsinghua.edu.cn/">School of Software</a> at <a href="https://www.tsinghua.edu.cn/">Tsinghua University</a>, advised by <a href="https://tns.thss.tsinghua.edu.cn/~jiliang/">Prof. Jiliang Wang</a>.</p>
       <p>I'm interested in making intelligent systems work on everyday devices. My research focuses on <strong>on-device AI</strong> and <strong>SLM for agentic systems</strong>.</p>
       <p>I received my B.S. dual degree in Mathematics &amp; Physics and Software Engineering from Tsinghua University in 2026.</p>
     </div>

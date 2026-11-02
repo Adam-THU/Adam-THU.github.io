@@ -2,7 +2,11 @@
   {% for entry in site.data.profile.education %}
   <li>
     <span class="education-period">{{ entry.period }}</span>
-    <div><h3>{{ entry.qualification }}</h3><p>{{ entry.institution }} <span class="education-detail">{{ entry.detail }}</span></p></div>
+    <div>
+      <h3>{{ entry.qualification }}</h3>
+      <p>{{ entry.institution }} <span class="education-detail">{{ entry.detail }}</span></p>
+      {% if entry.advisor and page.url == '/cv/' %}<p>Advisor: <a href="{{ entry.advisor_url }}">{{ entry.advisor }}</a></p>{% endif %}
+    </div>
   </li>
   {% endfor %}
 </ul>

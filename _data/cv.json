@@ -23,7 +23,11 @@
       "studyType": "Ph.D.",
       "startDate": "2026",
       "endDate": "",
-      "courses": []
+      "courses": [],
+      "advisor": {
+        "name": "Prof. Jiliang Wang",
+        "url": "https://tns.thss.tsinghua.edu.cn/~jiliang/"
+      }
     },
     {
       "institution": "Tsinghua University, Weiyang College",

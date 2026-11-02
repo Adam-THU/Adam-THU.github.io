@@ -16,6 +16,8 @@ education:
     qualification: "Ph.D. in Software Engineering"
     institution: "Tsinghua University"
     detail: "School of Software"
+    advisor: "Prof. Jiliang Wang"
+    advisor_url: "https://tns.thss.tsinghua.edu.cn/~jiliang/"
   - period: "2022 – 2026"
     qualification: "B.S. in Mathematics & Physics and Software Engineering"
     institution: "Tsinghua University"
