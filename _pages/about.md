@@ -29,7 +29,6 @@ redirect_from:
 <section class="home-section research-section" aria-labelledby="research-title">
   <div class="section-heading">
     <h2 id="research-title">Research interests</h2>
-    <p>Efficient intelligence, from models to systems.</p>
   </div>
   <div class="research-grid">
     {% for interest in site.data.profile.research %}
