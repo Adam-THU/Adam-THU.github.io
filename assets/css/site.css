@@ -87,7 +87,6 @@ h3 { font-size: 16px; letter-spacing: -.3px; }
 .document { max-width: 760px; padding-top: 61px; }
 .document-header { margin-bottom: 37px; }
 .document-header h1 { font-family: Georgia, "Times New Roman", serif; font-size: 42px; letter-spacing: -1.2px; font-weight: 400; }
-.document-description { color: var(--muted); margin: 14px 0 0; }
 .document-meta { font-size: 12px; color: var(--muted); margin: 12px 0 0; }
 .document-content { overflow-wrap: anywhere; }
 .document-content h2 { margin: 36px 0 20px; padding-top: 29px; border-top: 1px solid var(--line); }
@@ -181,10 +180,18 @@ hr { border: 0; border-top: 1px solid var(--line); margin: 30px 0; }
   html { scroll-behavior: auto; }
 }
 
+@media (max-width: 360px) {
+  .intro { grid-template-columns: minmax(0, 1fr) 72px; column-gap: 12px; }
+  .intro h1 { font-size: 32px; letter-spacing: -1.2px; }
+  .intro-portrait { width: 72px; }
+}
+
 @media print {
   body { font-size: 11pt; color: #000; }
   .site-shell { width: 100%; }
-  .site-header, .site-footer, .skip-link, .contact-note { display: none; }
+  .site-nav, .site-footer, .skip-link, .contact-note { display: none; }
+  .site-header { display: block; min-height: 0; padding-bottom: 18px; border: 0; }
+  .site-name { font-size: 16pt; }
   .document { max-width: none; padding-top: 0; }
   .document-header { margin-bottom: 22px; }
   .document-header h1 { font-size: 28pt; }

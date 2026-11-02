@@ -23,7 +23,7 @@ redirect_from:
       <a href="{{ '/cv/' | relative_url }}">Curriculum vitae</a>
     </div>
   </div>
-  <img class="intro-portrait" src="{{ '/images/selfie.jpg' | relative_url }}" alt="Zhe Dong's illustrated profile picture" width="192" height="192" fetchpriority="high">
+  <img class="intro-portrait" src="{{ '/images/portrait.webp' | relative_url }}" alt="Zhe Dong in graduation attire at Tsinghua University" width="192" height="192" fetchpriority="high">
 </section>
 
 <section class="home-section research-section" aria-labelledby="research-title">
