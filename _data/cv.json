@@ -52,12 +52,40 @@
       ]
     }
   ],
-  "work": [],
+  "work": [
+    {
+      "name": "Kuaishou",
+      "position": "Algorithm Intern",
+      "location": "Beijing, China",
+      "startDate": "2025-06",
+      "endDate": "2025-10",
+      "summary": "Overseas Recommendation Department · AI Innovation Algorithms Group",
+      "highlights": [
+        "Researched and developed multi-turn dialogue understanding and query rewriting models for short-video search.",
+        "Designed a dialogue-history augmentation module to improve context and user-intent understanding, and explored preference alignment using users' viewing behavior.",
+        "Gained practical experience deploying and fine-tuning large language models for real-world applications."
+      ]
+    }
+  ],
   "skills": [],
   "languages": [],
   "references": [],
   "publications": [],
   "presentations": [],
   "teaching": [],
-  "portfolio": []
+  "portfolio": [],
+  "awards": [
+    {
+      "title": "Ningbo Future Star Scholarship (宁波未来之星奖学金)",
+      "date": "2026-11"
+    },
+    {
+      "title": "Toyota Scholarship (丰田奖学金)",
+      "date": "2025-11"
+    },
+    {
+      "title": "Weng Xiaoqi Scholarship (翁晓奇奖学金)",
+      "date": "2025-11"
+    }
+  ]
 }

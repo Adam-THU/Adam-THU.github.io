@@ -20,3 +20,30 @@ education:
     qualification: "B.S. in Mathematics & Physics and Software Engineering"
     institution: "Tsinghua University"
     detail: "Weiyang College"
+
+experience:
+  - company: "Kuaishou"
+    role: "Algorithm Intern"
+    team: "Overseas Recommendation Department · AI Innovation Algorithms Group"
+    location: "Beijing, China"
+    period: "Jun – Oct 2025"
+    start_date: "2025-06"
+    end_date: "2025-10"
+    highlights:
+      - "Researched and developed multi-turn dialogue understanding and query rewriting models for short-video search."
+      - "Designed a dialogue-history augmentation module to improve context and user-intent understanding, and explored preference alignment using users' viewing behavior."
+      - "Gained practical experience deploying and fine-tuning large language models for real-world applications."
+
+scholarships:
+  - name: "Ningbo Future Star Scholarship"
+    original_name: "宁波未来之星奖学金"
+    date: "2026-11"
+    period: "Nov 2026"
+  - name: "Toyota Scholarship"
+    original_name: "丰田奖学金"
+    date: "2025-11"
+    period: "Nov 2025"
+  - name: "Weng Xiaoqi Scholarship"
+    original_name: "翁晓奇奖学金"
+    date: "2025-11"
+    period: "Nov 2025"
