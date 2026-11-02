@@ -14,7 +14,7 @@ redirect_from:
   <div class="intro-copy">
     <div class="intro-bio">
       <p>I'm <strong>Zhe Dong (<span lang="zh-Hans">董哲</span>)</strong>, a first-year Ph.D. student in the <a href="https://www.thss.tsinghua.edu.cn/">School of Software</a> at <a href="https://www.tsinghua.edu.cn/">Tsinghua University</a>, advised by <a href="https://tns.thss.tsinghua.edu.cn/~jiliang/">Prof. Jiliang Wang</a>.</p>
-      <p>I'm interested in making intelligent systems work on everyday devices. My research focuses on <strong>on-device AI</strong> and <strong>SLM for agentic systems</strong>.</p>
+      <p>I am interested in building efficient and reliable AI systems for edge devices. My research focuses on <strong>on-device AI</strong> and <strong>SLM for agentic systems</strong>.</p>
       <p>I received my B.S. dual degree in Mathematics &amp; Physics and Software Engineering from Tsinghua University in 2026.</p>
     </div>
     <div class="contact-links" aria-label="Contact and profile links">
