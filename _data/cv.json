@@ -3,7 +3,7 @@
     "name": "Zhe Dong (董哲)",
     "email": "dong-z22@mails.tsinghua.edu.cn",
     "website": "https://adam-thu.github.io/",
-    "summary": "First-year Ph.D. student at Tsinghua University. Research interests: on-device intelligence & SLM for agentic systems.",
+    "summary": "First-year Ph.D. student at Tsinghua University. Research interests: on-device AI & SLM for agentic systems.",
     "location": {
       "city": "Beijing",
       "countryCode": "CN"
@@ -26,8 +26,8 @@
       "courses": []
     },
     {
-      "institution": "Tsinghua University",
-      "area": "Mathematics & Physics and Software Engineering (dual degree)",
+      "institution": "Tsinghua University, Weiyang College",
+      "area": "Mathematics & Physics and Software Engineering",
       "studyType": "B.S.",
       "startDate": "2022",
       "endDate": "2026",
@@ -36,7 +36,7 @@
   ],
   "interests": [
     {
-      "name": "On-device intelligence",
+      "name": "on-device AI",
       "keywords": [
         "On-device AI infrastructure",
         "Inference acceleration",

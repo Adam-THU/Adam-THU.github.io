@@ -1,6 +1,6 @@
 # Shared by the homepage and CV so research descriptions stay consistent.
 research:
-  - title: "On-device intelligence"
+  - title: "on-device AI"
     description: "AI infrastructure for resource-constrained devices: efficient inference, hardware-aware acceleration, and practical on-device deployment."
     topics:
       - "On-device AI infrastructure"
@@ -19,4 +19,4 @@ education:
   - period: "2022 – 2026"
     qualification: "B.S. in Mathematics & Physics and Software Engineering"
     institution: "Tsinghua University"
-    detail: "Dual degree"
+    detail: "Weiyang College"

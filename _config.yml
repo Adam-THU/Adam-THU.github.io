@@ -12,7 +12,7 @@ site_theme               : "default" # The available themes options are "default
 title                    : "Zhe Dong | 董哲"
 title_separator          : "-"
 name                     : &name "Zhe Dong"
-description              : &description "Zhe Dong (董哲), first-year Ph.D. student at Tsinghua University. On-device intelligence & SLM for agentic systems."
+description              : &description "Zhe Dong (董哲), first-year Ph.D. student at Tsinghua University. on-device AI & SLM for agentic systems."
 url                      : https://Adam-THU.github.io
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "Adam-THU/Adam-THU.github.io"

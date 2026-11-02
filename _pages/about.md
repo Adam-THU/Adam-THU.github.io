@@ -2,7 +2,7 @@
 layout: default
 permalink: /
 title: "About"
-description: "Zhe Dong (董哲), first-year Ph.D. student at Tsinghua University. Research in on-device intelligence and SLM for agentic systems."
+description: "Zhe Dong (董哲), first-year Ph.D. student at Tsinghua University. Research in on-device AI and SLM for agentic systems."
 redirect_from:
   - /about/
   - /about.html
@@ -14,7 +14,7 @@ redirect_from:
     <p class="intro-role">First-year Ph.D. student</p>
     <p class="intro-affiliation"><a href="https://www.thss.tsinghua.edu.cn/">School of Software</a>, <a href="https://www.tsinghua.edu.cn/">Tsinghua University</a></p>
     <div class="intro-bio">
-      <p>I'm interested in making intelligent systems work on everyday devices. My research focuses on <strong>on-device intelligence</strong> and <strong>SLM for agentic systems</strong>.</p>
+      <p>I'm interested in making intelligent systems work on everyday devices. My research focuses on <strong>on-device AI</strong> and <strong>SLM for agentic systems</strong>.</p>
       <p>I received my B.S. dual degree in Mathematics &amp; Physics and Software Engineering from Tsinghua University in 2026.</p>
     </div>
     <div class="contact-links" aria-label="Contact and profile links">
