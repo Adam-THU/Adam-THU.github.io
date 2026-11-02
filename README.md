@@ -2,7 +2,7 @@
 
 Personal academic website: https://adam-thu.github.io/
 
-A minimal, responsive Jekyll site, hosted on GitHub Pages. The main pages share a small CSS stylesheet and require no JavaScript. The Manrope font is served locally under the SIL Open Font License (see `assets/fonts/manrope-OFL.txt`). The homepage uses a lightly retouched graduation portrait (`images/portrait.webp`); the earlier illustrated avatar is kept in the repository.
+A minimal, responsive Jekyll site, hosted on GitHub Pages. The main pages share a small CSS stylesheet. Core content renders without JavaScript; an optional theme picker offers Soft (default), Light, and Dark modes and remembers the choice locally. The Manrope font is served locally under the SIL Open Font License (see `assets/fonts/manrope-OFL.txt`). The homepage uses a lightly retouched graduation portrait (`images/portrait.webp`); the earlier illustrated avatar is kept in the repository.
 
 ## Edit content
 
