@@ -9,11 +9,11 @@ redirect_from:
 ---
 
 <section class="intro" aria-labelledby="intro-title">
+  <h1 id="intro-title" class="visually-hidden">About Zhe Dong</h1>
+  <img class="intro-portrait" src="{{ '/images/portrait.webp' | relative_url }}" alt="Zhe Dong in graduation attire at Tsinghua University" width="192" height="192" fetchpriority="high">
   <div class="intro-copy">
-    <h1 id="intro-title">Zhe Dong <span lang="zh-Hans">董哲</span></h1>
-    <p class="intro-role">First-year Ph.D. student</p>
-    <p class="intro-affiliation"><a href="https://www.thss.tsinghua.edu.cn/">School of Software</a>, <a href="https://www.tsinghua.edu.cn/">Tsinghua University</a></p>
     <div class="intro-bio">
+      <p>I'm <strong>Zhe Dong (<span lang="zh-Hans">董哲</span>)</strong>, a first-year Ph.D. student in the <a href="https://www.thss.tsinghua.edu.cn/">School of Software</a> at <a href="https://www.tsinghua.edu.cn/">Tsinghua University</a>.</p>
       <p>I'm interested in making intelligent systems work on everyday devices. My research focuses on <strong>on-device AI</strong> and <strong>SLM for agentic systems</strong>.</p>
       <p>I received my B.S. dual degree in Mathematics &amp; Physics and Software Engineering from Tsinghua University in 2026.</p>
     </div>
@@ -23,7 +23,6 @@ redirect_from:
       <a href="{{ '/cv/' | relative_url }}">Curriculum vitae</a>
     </div>
   </div>
-  <img class="intro-portrait" src="{{ '/images/portrait.webp' | relative_url }}" alt="Zhe Dong in graduation attire at Tsinghua University" width="192" height="192" fetchpriority="high">
 </section>
 
 <section class="home-section research-section" aria-labelledby="research-title">

@@ -15,7 +15,7 @@
     <a class="skip-link" href="#main-content">Skip to content</a>
     <div class="site-shell">
       <header class="site-header">
-        <a class="site-name" href="{{ '/' | relative_url }}">{{ site.name }}<span lang="zh-Hans">董哲</span></a>
+        <a class="site-name" href="{{ '/' | relative_url }}">{{ site.name }} (<span lang="zh-Hans">董哲</span>)</a>
         <nav class="site-nav" aria-label="Main navigation">
           {% for item in site.data.navigation.main %}
             <a href="{{ item.url | relative_url }}"{% if page.url == item.url %} aria-current="page"{% endif %}>{{ item.title }}</a>
