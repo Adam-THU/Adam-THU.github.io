@@ -1,32 +1,65 @@
 ---
-layout: archive
-title: "CV"
+layout: single
+title: "Curriculum vitae"
+description: "First-year Ph.D. student at Tsinghua University."
 permalink: /cv/
-author_profile: true
 redirect_from:
   - /resume
+  - /resume/
+  - /cv-json/
+  - /resume-json
 ---
 
-{% include base_path %}
+<div class="cv-contact"><a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a><a href="https://github.com/{{ site.author.github }}">GitHub</a></div>
 
-Education
-======
-* **Ph.D. in Software Engineering**, School of Software, Tsinghua University, 2026 – present
-* **B.S. in Mathematics & Physics + Software Engineering** (Dual Degree), Tsinghua University, 2022 – 2026
+## Education
 
-Research Interests
-======
-* On-device AI Agents
-* Edge Intelligence & Efficient Inference
-* Autonomous Agent Systems
-* Large Language Model Deployment
+{% include education.html %}
 
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+## Experience
 
-Service
-======
-* Reviewer / Sub-reviewer: *(to be updated)*
+<ul class="dated-list education-list experience-list">
+  {% for entry in site.data.profile.experience %}
+  <li>
+    <span class="education-period">{{ entry.period }}</span>
+    <div>
+      <h3>{{ entry.role }}, {{ entry.company }}</h3>
+      <p>{{ entry.team }}</p>
+      <p class="experience-location">{{ entry.location }}</p>
+      <ul class="experience-highlights">
+        {% for highlight in entry.highlights %}<li>{{ highlight }}</li>{% endfor %}
+      </ul>
+    </div>
+  </li>
+  {% endfor %}
+</ul>
+
+## Scholarships
+
+<ul class="dated-list scholarship-list">
+  {% for award in site.data.profile.scholarships %}
+  <li>
+    <time datetime="{{ award.date }}">{{ award.period }}</time>
+    <div><p>{{ award.name }}</p><p class="award-original" lang="zh-Hans">{{ award.original_name }}</p></div>
+  </li>
+  {% endfor %}
+</ul>
+
+<p class="scholarship-thanks">I am grateful to the scholarship programs and their donors for supporting my education and research.</p>
+
+## Research interests
+
+{% for interest in site.data.profile.research %}
+### {{ interest.title }}
+
+{{ interest.description }}
+
+{% endfor %}
+
+{% if site.publications.size > 0 %}
+## Publications
+
+{% for post in site.publications reversed %}
+{% include archive-single-cv.html %}
+{% endfor %}
+{% endif %}
