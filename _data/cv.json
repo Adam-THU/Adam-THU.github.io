@@ -73,7 +73,15 @@
   "skills": [],
   "languages": [],
   "references": [],
-  "publications": [],
+  "publications": [
+    {
+      "name": "Building Fully On-Device GUI Agents with Mobile NPUs",
+      "publisher": "arXiv preprint arXiv:2611.20772",
+      "releaseDate": "2026-11-16",
+      "website": "https://arxiv.org/abs/2611.20772",
+      "summary": "Zhe Dong, Guanyu Cai, Yuchen Jiang, and Jiliang Wang. DroidPrefill combines prefill-centric inference and efficient context management for fully on-device GUI agents on mobile NPUs."
+    }
+  ],
   "presentations": [],
   "teaching": [],
   "portfolio": [],
