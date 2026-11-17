@@ -1,16 +1,28 @@
 ---
-layout: single
+layout: default
 title: "Publications"
 description: "Research on on-device AI and agentic systems."
 permalink: /publications/
 ---
 
+<section class="document publications-page" aria-labelledby="publications-title">
+  <header class="document-header">
+    <h1 id="publications-title">Publications</h1>
+    <p class="publications-intro">Research on on-device AI and agentic systems.</p>
+  </header>
 {% if site.publications.size > 0 %}
   {% if site.author.googlescholar %}
   <p><a href="{{ site.author.googlescholar }}">Google Scholar</a></p>
   {% endif %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
+  {% assign papers = site.publications | sort: 'date' | reverse %}
+  {% assign current_year = '' %}
+  {% for post in papers %}
+    {% assign year = post.date | date: '%Y' %}
+    {% if year != current_year %}
+      <h2 class="publication-year">{{ year }}</h2>
+      {% assign current_year = year %}
+    {% endif %}
+    {% include publication-card.html %}
   {% endfor %}
 {% else %}
   <div class="empty-state">
@@ -18,3 +30,4 @@ permalink: /publications/
     <a href="{{ '/' | relative_url }}#research-title">Explore my research interests</a>
   </div>
 {% endif %}
+</section>

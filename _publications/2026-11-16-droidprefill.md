@@ -7,8 +7,14 @@ permalink: /publication/droidprefill/
 date: 2026-11-16
 venue: "arXiv preprint"
 excerpt: "DroidPrefill combines prefill-centric inference and efficient context management to run GUI agents fully on mobile NPUs."
-paperurl: "https://arxiv.org/pdf/2611.20772"
-bibtexurl: "/files/droidprefill.bib"
+arxivurl: "https://arxiv.org/abs/2611.20772"
+authors:
+  - Zhe Dong
+  - Guanyu Cai
+  - Yuchen Jiang
+  - Jiliang Wang
+teaser: "/images/publications/droidprefill.webp"
+teaser_alt: "Comparison of cloud-based and conventional on-device GUI agents with DroidPrefill running on mobile NPUs."
 citation: 'Zhe Dong, Guanyu Cai, Yuchen Jiang, and Jiliang Wang. (2026). Building Fully On-Device GUI Agents with Mobile NPUs. <i>arXiv preprint arXiv:2611.20772</i>.'
 ---
 
