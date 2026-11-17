@@ -11,6 +11,6 @@
     {% endif %}
     <p class="publication-venue">{{ post.venue }} <span aria-hidden="true">&middot;</span> {{ post.date | date: '%Y' }}</p>
     {% if post.excerpt %}<p class="publication-summary">{{ post.excerpt | strip_html }}</p>{% endif %}
-    {% if post.arxivurl %}<a class="publication-link" href="{{ post.arxivurl }}">arXiv <span aria-hidden="true">↗</span></a>{% endif %}
+    {% if post.arxivurl %}<a class="publication-link" href="{{ post.arxivurl }}">arXiv</a>{% endif %}
   </div>
 </article>

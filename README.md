@@ -12,7 +12,7 @@ A minimal, responsive Jekyll site, hosted on GitHub Pages. The main pages share 
 - `_data/navigation.yml`: navigation links.
 - `_pages/cv.md`: CV structure; `/cv-json/` redirects here.
 - `_publications/`: publication entries with YAML front matter. The Publications page lists them automatically.
-- `_posts/`: dated blog posts. The Writing page lists them automatically.
+- `_posts/`: dated posts, photo essays, and personal interests. The Beyond Research page lists them automatically.
 - `_data/cv.json`: machine-readable CV; keep it in sync when updating biographical information.
 - `assets/css/site.css`: layout, typography, mobile styles, and print styles.
 
