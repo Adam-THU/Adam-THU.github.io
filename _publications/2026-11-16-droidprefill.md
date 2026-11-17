@@ -6,7 +6,7 @@ status: preprint
 permalink: /publication/droidprefill/
 date: 2026-11-16
 venue: "arXiv preprint"
-excerpt: "DroidPrefill combines prefill-centric inference and efficient context management to run GUI agents fully on mobile NPUs."
+excerpt: ""
 arxivurl: "https://arxiv.org/abs/2611.20772"
 authors:
   - Zhe Dong
